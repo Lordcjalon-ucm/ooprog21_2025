@@ -32,3 +32,4 @@ public class DebugFour2
         System.out.println(" and a " + p.getPoint() + " point.");
     }
 }
+s

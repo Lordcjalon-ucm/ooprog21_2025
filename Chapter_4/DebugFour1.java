@@ -17,3 +17,4 @@ public class DebugFour1
         System.out.println("The area is " + c.getArea());
     }
 }
+s
