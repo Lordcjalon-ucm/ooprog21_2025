@@ -43,5 +43,5 @@ public class DebugTrip
     public String getMode()
     {
         return mode;
-    }s
+    }
 }

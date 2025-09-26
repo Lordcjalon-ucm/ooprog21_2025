@@ -25,4 +25,3 @@ public class DebugPen
         return point;
     }
 }
-s

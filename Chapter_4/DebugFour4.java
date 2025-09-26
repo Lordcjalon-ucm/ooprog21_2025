@@ -37,4 +37,3 @@ public class DebugFour4
         System.out.println(" Going by " + trip.getMode());
     }
 }
-s

@@ -18,7 +18,7 @@ public class DebugCircle
     }
 
     public int getDiameter()
-    {s
+    {
         return diameter;
     }
 
