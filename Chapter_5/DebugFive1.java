@@ -22,6 +22,6 @@ public class DebugFive1 {
         if(choice == 1)
             bill += 0.89;
 
-        System.out.println("Total bill is " + bill)
+        System.out.println("Total bill is " + bill);
     }
 }

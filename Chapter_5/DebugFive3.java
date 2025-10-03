@@ -21,6 +21,6 @@ public class DebugFive3 {
             output = "Valid - Item in Housewares Department";
         }
 
-        System.out.println(output)
+        System.out.println(output);
     }
 }
