@@ -19,6 +19,6 @@ public class DebugFive4 {
         if (three > highest) highest = three;
         if (four > highest) highest = four;
 
-        System.out.println("The highest number is " + highest);
+        System.out.println("The highest number is " + highest)
     }
 }

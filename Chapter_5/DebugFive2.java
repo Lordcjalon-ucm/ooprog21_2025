@@ -13,7 +13,7 @@ public class DebugFive2 {
         if (num1 % num2 == 0 || num2 % num1 == 0) {
             System.out.println("One number is evenly divisible into the other.");
         } else {
-            System.out.println("Neither number is evenly divisible into the other.");
+            System.out.println("Neither number is evenly divisible into the other.")
         }
     }
 }
