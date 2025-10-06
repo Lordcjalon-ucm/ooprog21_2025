@@ -22,6 +22,6 @@ public class DebugPen
 
     public String getPoint()
     {
-        return point
+        return point;
     }
 }

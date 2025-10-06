@@ -19,6 +19,6 @@ public class Payroll {
         System.out.printf("Overtime pay is %.1f%n", overtimePay);
         System.out.println("---- jGRASP: Operation complete.");
 
-        scanner.close()
+        scanner.close();
     }
 }

@@ -14,6 +14,6 @@ public class DebugFour1
         DebugCircle c = new DebugCircle(radius);
         System.out.println("The radius is " + c.getRadius());
         System.out.println("The diameter is " + c.getDiameter());
-        System.out.println("The area is " + c.getArea())
+        System.out.println("The area is " + c.getArea());
     }
 }

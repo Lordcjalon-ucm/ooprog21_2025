@@ -34,6 +34,6 @@ public class DebugFour4
     {
         System.out.println("Going to " + trip.getDestination());
         System.out.println(" Leaving from " + trip.getDepartureCity());
-        System.out.println(" Going by " + trip.getMode())
+        System.out.println(" Going by " + trip.getMode());
     }
 }

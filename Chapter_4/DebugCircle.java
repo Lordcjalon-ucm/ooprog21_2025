@@ -24,7 +24,7 @@ public class DebugCircle
 
     public double getArea()
     {
-        return area
+        return area;
     }
 }
 
