@@ -22,6 +22,6 @@ public class Employee {
 
     public double calculateOvertimePay(int hoursWorked) {
         int overtimeHours = Math.max(0, hoursWorked - 40);
-        return overtimeHours * this.payRate * OVERTIME_MULTIPLIER;
+        return overtimeHours * this.payRate * OVERTIME_MULTIPLIER
     }
 }

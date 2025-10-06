@@ -32,6 +32,6 @@ public class DebugFour3
     public static void showVolume(DebugBox aBox)
     {
         double vol = aBox.getVolume();
-        System.out.println(vol);
+        System.out.println(vol)
     }
 }

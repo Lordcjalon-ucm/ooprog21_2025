@@ -29,6 +29,6 @@ public class DebugFour2
     public static void display(DebugPen p)
     {
         System.out.println("The pen has ink color " + p.getColor());
-        System.out.println(" and a " + p.getPoint() + " point.");
+        System.out.println(" and a " + p.getPoint() + " point.")
     }
 }
