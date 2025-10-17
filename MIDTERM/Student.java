@@ -51,14 +51,14 @@ public class Student {
 
     public String details() {
         String name = (lName + ", " + fName + " " + mName + " " + suffix).trim();
-        return  "===== STUDENT RECORD =====\n"
+        return "===== STUDENT RECORD =====\n"
                 + "ID: " + id + "\n"
                 + "Name: " + name + "\n"
                 + "Age: " + age + "\n"
                 + "Year: " + year + "\n"
                 + "Phone: " + phone + "\n"
                 + "Email: " + email + "\n"
-                + "Course: " + course.getName() + " (" + course.getCode() + ")\n"f
+                + "Course: " + course.getName() + " (" + course.getCode() + ")\n"
                 + "Department: " + course.getDept().getName() + "\n";
     }
 

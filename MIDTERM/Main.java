@@ -22,7 +22,7 @@ public class Main {
                             ask("Last Name:"),
                             ask("Suffix (optional):"),
                             askInt("Age:"),
-                            ask("Year Level:"),
+                            askInt("Year Level:"), 
                             ask("Phone:"),
                             ask("Email:")
                     );
@@ -32,11 +32,11 @@ public class Main {
                 case "2":
                     String newFirstName = ask("Enter New First Name:");
                     if (newFirstName != null)
-                        student.setfName(newFirstName);
+                        student.setName(newFirstName);
                     break;
 
                 case "3":
-                    String[] courses = {"BSIT", "BSCS", "ACT", "BSEM", "BSCE", "NONE"};
+                    String[] courses = {"BSIT", "BSCS", "ACT", "BSME", "BSCE", "NONE"};
                     String courseCode = (String) JOptionPane.showInputDialog(
                             null,
                             "Select Course:",
@@ -68,8 +68,9 @@ public class Main {
     private static int askInt(String prompt) {
         try {
             return Integer.parseInt(JOptionPane.showInputDialog(prompt));
-        } catch (NumberFormatException e) {
+        } catch (Exception e) {
             return 0;
         }
     }
 }
+    
