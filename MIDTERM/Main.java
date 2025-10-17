@@ -71,6 +71,5 @@ public class Main {
         } catch (Exception e) {
             return 0;
         }
-    }
+    }.
 }
-    
