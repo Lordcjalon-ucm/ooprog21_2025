@@ -26,4 +26,4 @@ public class CharacterInfo {
         else
             System.out.println(aChar + " is not whitespace");
     }
-}asd
+}
