@@ -18,4 +18,3 @@ public class CompareStrings {
         input.close();
     }
 }
-.
